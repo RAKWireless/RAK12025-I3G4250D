@@ -1,4 +1,4 @@
-| <center><img src="./assets/rakstar.jpg" alt="RAKstar" width=25%></center>  | ![RAKWireless](./assets/RAK-Whirls.png) | [![Build Status](https://github.com/RAKWireless/RAK12025-I3G4250D-Library/workflows/RAK%20Library%20Build%20CI/badge.svg)](https://github.com/RAKWireless/RAK12025-I3G4250D-Library/actions) | <center><img src="./assets/RAK12025.png" alt="RAK12025" width=25%></center> |
+| <center><img src="./assets/rakstar.jpg" alt="RAKstar" width=25%></center>  | ![RAKWireless](./assets/RAK-Whirls.png) | [![Build Status](https://github.com/RAKWireless/RAK12025-I3G4250D/workflows/RAK%20Library%20Build%20CI/badge.svg)](https://github.com/RAKWireless/RAK12025-I3G4250D/actions) | <center><img src="./assets/RAK12025.png" alt="RAK12025" width=25%></center> |
 | -- | -- | -- | -- |
 
 # Library for WisBlock Sensor RAK12025 I3G4250D 3-axis gyroscope
@@ -24,7 +24,7 @@ The default I2C address is `0x68` / `0b1101000`, defined as `I3G4250D_I2C_ADDR`.
 # Documentation
 
 * [*RAKwireless RAK12025 Gyroscope sensor*](https://docs.rakwireless.com/Product-Categories/WisBlock/RAK12025/Overview/)
-* [Library Repository](https://github.com/RAKWireless/RAK-I3G4250D-Library) - Product repository for the RAK12025 Sensor Modules.
+* [Library Repository](https://github.com/RAKWireless/RAK12025-I3G4250D) - Product repository for the RAK12025 Sensor Modules.
 
 ## Installation
 
@@ -38,18 +38,18 @@ In Arduino IDE open `Sketch->Include Library->Manage Libraries` then search for 
 
 You can also install it manually:
 
-* Method 1: download the archive, unzip it and place the RAK12025-I3G4250D-Library folder into the library directory.
+* Method 1: download the archive, unzip it and place the RAK12025-I3G4250D folder into the library directory.
 
 * Method 2: In the terminal, if you have git installed, go to the libraries folder and do:
 
 ```bash
-git clone https://github.com/RAKWireless/RAK12025-I3G4250D-Library
+git clone https://github.com/RAKWireless/RAK12025-I3G4250D
 ```
 
 You should get an output similar to this:
 
 ```bash
-Cloning into 'RAK12025-I3G4250D-Library'...
+Cloning into 'RAK12025-I3G4250D'...
 remote: Enumerating objects: 20, done.
 remote: Counting objects: 100% (20/20), done.
 remote: Compressing objects: 100% (15/15), done.
@@ -68,7 +68,7 @@ lib_deps =
 
 You can also install it manually:
 
-Download the archive, unzip it and place the RAK12025-I3G4250D-Library folder into the library directory: in PlatformIO this is usually in `<user/.platformio/lib>`.
+Download the archive, unzip it and place the RAK12025-I3G4250D folder into the library directory: in PlatformIO this is usually in `<user/.platformio/lib>`.
 
 # Usage
 
@@ -183,7 +183,6 @@ Parameters:
 | in        | &theWire  | I2C interface to be used  | 
 | return    |           | If the initialization succeeds return true else return false  | 
 
-## MQx functions
 **void setVoltageResolution(float value);**    
 Set the resolution voltage
 
