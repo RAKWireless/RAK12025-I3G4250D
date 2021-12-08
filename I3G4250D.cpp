@@ -2,7 +2,7 @@
 #include "stdint.h"
 #include "Wire.h"
 #include "I3G4250D.h"
-#include "arduino.h"
+#include "Arduino.h"
 
 // Scale includes 245,500,2000 dps
 static int I3G4250D_Scale = 245;
