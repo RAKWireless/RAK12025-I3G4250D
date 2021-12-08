@@ -1,0 +1,32 @@
+{
+	"name": "RAK I3G4250D Gyroscope",
+	"version": "1.0.0",
+	"keywords": [
+		"Gyroscope",
+		"I3G4250D",
+		"RAKWireless",
+		"WisBlock",
+		"RAK12025"
+	],
+	"description": "RAKWireless library for the RAK12025 module with I3G4250D Gyroscope",
+	"frameworks": [
+		"arduino"
+	],
+	"platforms": [
+		"*"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"email": "nero.du@rakwireless.com",
+			"url": "https://rakwireless.com",
+			"maintainer": true,
+			"name": "Nero"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RAKWireless/RAK12025-I3G4250D"
+	},
+	"homepage": "https://rakwireless.com"
+}
